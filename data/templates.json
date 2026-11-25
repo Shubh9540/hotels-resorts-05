@@ -1,0 +1,465 @@
+{
+  "common": {
+    "theme": {
+      "fontFamily": "var(--font-sans), system-ui, sans-serif"
+    },
+    "Footer": {
+      "logo": "/main logo/footer logo.webp",
+      "logoAlt": "Pin Hotels & Resorts",
+      "description": "An architectural sanctuary where coastal palms meet tranquil pine horizons, crafted for unhurried stays and thoughtful hospitality.",
+      "quickLinksTitle": "Explore",
+      "quickLinks": [
+        {
+          "id": "footer-home",
+          "label": "Home",
+          "url": "/#hero"
+        },
+        {
+          "id": "footer-about",
+          "label": "About Us",
+          "url": "/#about"
+        },
+        {
+          "id": "footer-rooms",
+          "label": "Suites & Villas",
+          "url": "/#rooms"
+        }
+      ],
+      "usefulLinksTitle": "Guest Info",
+      "usefulLinks": [
+        {
+          "id": "footer-why-choose-us",
+          "label": "Experiences",
+          "url": "/#why-choose-us"
+        },
+        {
+          "id": "footer-testimonials",
+          "label": "Guest Reviews",
+          "url": "/#testimonials"
+        },
+        {
+          "id": "footer-faq",
+          "label": "FAQs",
+          "url": "/#faq"
+        },
+        {
+          "id": "footer-contact",
+          "label": "Contact & Reservations",
+          "url": "/#contact"
+        }
+      ],
+      "contactTitle": "Reservations Desk",
+      "address": "123 Main St, New York, NY, USA",
+      "phone": "+1 00000 00000",
+      "email": "info@xyz.com",
+      "copyrightText": "© 2026 Pin Hotels & Resorts. All Rights Reserved. Powered by Lestow",
+      "socialLinks": []
+    }
+  },
+  "categories": {
+    "HotelsResorts": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "HotelsResortsHeader2": {
+              "logo": "/main logo/header logo.webp",
+              "logoAlt": "Pin Hotels & Resorts",
+              "phone": "+1 00000 00000",
+              "email": "info@xyz.com",
+              "address": "123 Main St, New York, NY, USA",
+              "leftNavLinks": [
+                {
+                  "id": "nav-home",
+                  "label": "Home",
+                  "url": "/#hero"
+                },
+                {
+                  "id": "nav-about",
+                  "label": "About Us",
+                  "url": "/#about"
+                },
+                {
+                  "id": "nav-rooms",
+                  "label": "Suites",
+                  "url": "/#rooms"
+                }
+              ],
+              "rightNavLinks": [
+                {
+                  "id": "nav-experiences",
+                  "label": "Experiences",
+                  "url": "/#why-choose-us"
+                },
+                {
+                  "id": "nav-reviews",
+                  "label": "Reviews",
+                  "url": "/#testimonials"
+                }
+              ],
+              "contactButton": {
+                "id": "nav-book",
+                "label": "Book a Stay",
+                "url": "/#contact"
+              },
+              "openMenuLabel": "Open navigation menu",
+              "closeMenuLabel": "Close navigation menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "HotelsResortsHero2": {
+              "eyebrow": "Pin Hotels & Resorts",
+              "titleLine1": "Where Coastal Calm",
+              "titleLine2": "Meets Pine Horizons",
+              "description": "An intimate luxury sanctuary of sunlit lagoon villas, cedar-lined suites, and unhurried hospitality designed for restorative stays.",
+              "primaryCtaLabel": "Explore Suites",
+              "primaryCtaUrl": "/#rooms",
+              "secondaryCtaLabel": "Reserve a Stay",
+              "secondaryCtaUrl": "/#contact",
+              "images": [
+                {
+                  "id": "hero-sanctuary",
+                  "src": "/hero/pin-hero-sanctuary-1.jpg",
+                  "alt": "Pin Hotels & Resorts sunlit suite overlooking tropical greenery",
+                  "caption": "Private Lagoon Pavilion"
+                },
+                {
+                  "id": "hero-pool",
+                  "src": "/hero/pin-hero-pool-2.jpg",
+                  "alt": "Pin Hotels & Resorts tranquil infinity pool framed by palms",
+                  "caption": "Tranquil Infinity Pool"
+                },
+                {
+                  "id": "hero-villa",
+                  "src": "/hero/pin-hero-villa-3.jpg",
+                  "alt": "Pin Hotels & Resorts architectural facade at golden hour",
+                  "caption": "Heritage Courtyard Wing"
+                },
+                {
+                  "id": "hero-dining",
+                  "src": "/hero/pin-hero-dining-4.jpg",
+                  "alt": "Pin Hotels & Resorts open-air poolside terrace and lounge",
+                  "caption": "Sunset Terrace Lounge"
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "HotelsResortsAboutUs2": {
+              "eyebrow": "Our Heritage",
+              "titleStart": "Crafted Around",
+              "titleAccent": "Nature & Stillness",
+              "descriptionLeft": "Set between whispering pine groves and sunlit coastal waters, Pin Hotels & Resorts blends timeless architectural warmth with attentive, personal service.",
+              "descriptionRight": "Every suite and pavilion is oriented for natural light, cross-breezes, and quiet privacy—creating a sanctuary where mornings begin slowly and evenings linger.",
+              "image": "/about/pin-about-courtyard.jpg",
+              "imageAlt": "Pin Hotels & Resorts open courtyard and resort pool surrounded by trees",
+              "statNumber": "18+",
+              "statLabel": "Years of Boutique Hospitality",
+              "features": [
+                {
+                  "id": "about-bespoke",
+                  "label": "Personal Concierge",
+                  "detail": "Tailored itineraries from private transfers to candlelit dining."
+                },
+                {
+                  "id": "about-architecture",
+                  "label": "Natural Materials",
+                  "detail": "Hand-finished timber, limestone, and woven linen interiors."
+                },
+                {
+                  "id": "about-sanctuary",
+                  "label": "Secluded Grounds",
+                  "detail": "Twelve acres of landscaped pine gardens and coastal trails."
+                }
+              ]
+            }
+          }
+        },
+        "Rooms": {
+          "variants": {
+            "HotelsResortsRooms2": {
+              "eyebrow": "Accommodations",
+              "title": "Suites & Private Villas",
+              "viewAllLabel": "Book Your Stay",
+              "viewAllUrl": "/#contact",
+              "prevAriaLabel": "Previous suite",
+              "nextAriaLabel": "Next suite",
+              "rooms": [
+                {
+                  "id": "room-pine-suite",
+                  "title": "Pine Canopy Suite",
+                  "price": "$340",
+                  "priceUnit": "/ night",
+                  "size": "520 sq ft",
+                  "guests": "2 Guests",
+                  "bed": "King Bed",
+                  "image": "/rooms/pin-room-pine-suite.jpg",
+                  "imageAlt": "Pine Canopy Suite with warm timber accents and king bed"
+                },
+                {
+                  "id": "room-lagoon-villa",
+                  "title": "Lagoon Terrace Villa",
+                  "price": "$520",
+                  "priceUnit": "/ night",
+                  "size": "780 sq ft",
+                  "guests": "3 Guests",
+                  "bed": "King + Daybed",
+                  "image": "/rooms/pin-room-lagoon-villa.jpg",
+                  "imageAlt": "Lagoon Terrace Villa featuring sunlit lounge and plush bedding"
+                },
+                {
+                  "id": "room-canopy-pavilion",
+                  "title": "Emerald Courtyard Pavilion",
+                  "price": "$440",
+                  "priceUnit": "/ night",
+                  "size": "650 sq ft",
+                  "guests": "2 Guests",
+                  "bed": "California King",
+                  "image": "/rooms/pin-room-canopy-pavilion.jpg",
+                  "imageAlt": "Emerald Courtyard Pavilion with private balcony view"
+                },
+                {
+                  "id": "room-coastal-residence",
+                  "title": "Pin Signature Residence",
+                  "price": "$790",
+                  "priceUnit": "/ night",
+                  "size": "1,150 sq ft",
+                  "guests": "4 Guests",
+                  "bed": "2 King Suites",
+                  "image": "/rooms/pin-room-coastal-residence.jpg",
+                  "imageAlt": "Pin Signature Residence spacious living area and bedroom"
+                }
+              ]
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "HotelsResortsWhyChooseUs2": {
+              "eyebrow": "The Pin Experience",
+              "titleStart": "Thoughtful Details,",
+              "titleAccent": "Every Moment",
+              "primaryImage": "/why-choose-us/pin-why-spa.jpg",
+              "primaryImageAlt": "Pin Hotels & Resorts serene poolside cabanas and palm trees",
+              "secondaryImage": "/why-choose-us/pin-why-terrace.jpg",
+              "secondaryImageAlt": "Pin Hotels & Resorts peaceful morning terrace overlooking water",
+              "items": [
+                {
+                  "id": "why-01",
+                  "number": "01",
+                  "title": "Architectural Suites & Villas",
+                  "description": "Sunlit rooms with private terraces, deep soaking tubs, and organic cotton linens.",
+                  "icon": "accommodation"
+                },
+                {
+                  "id": "why-02",
+                  "number": "02",
+                  "title": "Seasonal Coastal Dining",
+                  "description": "Farm-to-table harvests, wood-fired specialties, and curated cellar pairings.",
+                  "icon": "dining"
+                },
+                {
+                  "id": "why-03",
+                  "number": "03",
+                  "title": "Botanical Spa & Wellness",
+                  "description": "Pine-oil hydrotherapy, quiet meditation pavilions, and private massage suites.",
+                  "icon": "wellness"
+                },
+                {
+                  "id": "why-04",
+                  "number": "04",
+                  "title": "Heated Infinity Pool",
+                  "description": "Saltwater lap pool bordered by shaded cabanas and tranquil garden views.",
+                  "icon": "pool"
+                },
+                {
+                  "id": "why-05",
+                  "number": "05",
+                  "title": "Dedicated Concierge",
+                  "description": "24-hour reception, private airport transfers, and bespoke local excursions.",
+                  "icon": "service"
+                },
+                {
+                  "id": "why-06",
+                  "number": "06",
+                  "title": "Seamless Connectivity",
+                  "description": "High-speed fiber Wi-Fi across all suites, gardens, and private work lounges.",
+                  "icon": "wifi"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "HotelsResortsTestimonials2": {
+              "eyebrow": "Guest Reflections",
+              "titleStart": "Stories From",
+              "titleAccent": "Our Guests",
+              "prevAriaLabel": "Previous guest review",
+              "nextAriaLabel": "Next guest review",
+              "items": [
+                {
+                  "id": "guest-1",
+                  "name": "Clara Bennett",
+                  "role": "Lagoon Terrace Villa · 4 Nights",
+                  "quote": "Waking up to pine breezes and stepping straight onto our quiet terrace felt restorative in a way few resorts ever achieve. Every detail was effortless.",
+                  "rating": 5,
+                  "image": "/testimonials/pin-guest-1.jpg",
+                  "imageAlt": "Portrait of guest Clara Bennett"
+                },
+                {
+                  "id": "guest-2",
+                  "name": "Daniel Mercer",
+                  "role": "Pin Signature Residence · 6 Nights",
+                  "quote": "The balance of understated architecture and genuine warmth from the staff made our family anniversary unforgettable. The coastal dining terrace is remarkable.",
+                  "rating": 5,
+                  "image": "/testimonials/pin-guest-2.jpg",
+                  "imageAlt": "Portrait of guest Daniel Mercer"
+                },
+                {
+                  "id": "guest-3",
+                  "name": "Meera Kapoor",
+                  "role": "Pine Canopy Suite · 3 Nights",
+                  "quote": "Quiet mornings by the saltwater pool, thoughtful spa rituals, and rooms bathed in natural light. Pin Hotels & Resorts is our new favorite retreat.",
+                  "rating": 5,
+                  "image": "/testimonials/pin-guest-3.jpg",
+                  "imageAlt": "Portrait of guest Meera Kapoor"
+                },
+                {
+                  "id": "guest-4",
+                  "name": "Henrik Lindqvist",
+                  "role": "Emerald Courtyard Pavilion · 5 Nights",
+                  "quote": "From private airport pickup to late-evening tea in the courtyard, the hospitality felt personal without ever being intrusive.",
+                  "rating": 5,
+                  "image": "/testimonials/pin-guest-4.jpg",
+                  "imageAlt": "Portrait of guest Henrik Lindqvist"
+                }
+              ]
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "HotelsResortsFaq2": {
+              "eyebrow": "Guest Guide",
+              "titleStart": "Frequently Asked",
+              "titleAccent": "Questions",
+              "subtitle": "Everything you need to know before arriving at Pin Hotels & Resorts.",
+              "image": "/faq/pin-faq-lounge.jpg",
+              "imageAlt": "Pin Hotels & Resorts quiet evening lounge and resort grounds",
+              "captionTitle": "24-Hour Hospitality Desk",
+              "captionSubtitle": "Early check-in, private transfers, and tailored stay requests arranged on demand.",
+              "items": [
+                {
+                  "id": "faq-1",
+                  "question": "What are the standard check-in and check-out times?",
+                  "answer": "Check-in begins at 3:00 PM and check-out is until 12:00 PM. Early arrival or late departure can be arranged in advance subject to suite availability."
+                },
+                {
+                  "id": "faq-2",
+                  "question": "Do you offer private airport transfers and valet parking?",
+                  "answer": "Yes. Complimentary valet parking is included for all guests, and our concierge arranges private chauffeur transfers upon sharing your flight details."
+                },
+                {
+                  "id": "faq-3",
+                  "question": "Are breakfast and wellness facilities included in the stay?",
+                  "answer": "Every reservation includes artisan daily breakfast, access to the heated saltwater infinity pool, fitness pavilion, and guided morning pine-trail walks."
+                },
+                {
+                  "id": "faq-4",
+                  "question": "Can Pin Hotels & Resorts host intimate weddings or retreats?",
+                  "answer": "Yes. Our courtyard pavilion and coastal terrace host private gatherings, executive retreats, and intimate celebrations for up to 80 guests."
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "HotelsResortsContact2": {
+              "eyebrow": "Reservations & Inquiries",
+              "titleStart": "Plan Your Stay",
+              "titleAccent": "With Us",
+              "subtitle": "Reach out to our concierge team for suite availability, bespoke itineraries, or private group bookings.",
+              "panelTitle": "Direct Concierge",
+              "panelDescription": "Our reservations desk responds promptly to all stay inquiries and special requests.",
+              "infoItems": [
+                {
+                  "id": "contact-location",
+                  "label": "Resort Address",
+                  "value": "123 Main St, New York, NY, USA",
+                  "icon": "location"
+                },
+                {
+                  "id": "contact-phone",
+                  "label": "Reservations Line",
+                  "value": "+1 00000 00000",
+                  "icon": "phone",
+                  "href": "tel:+10000000000"
+                },
+                {
+                  "id": "contact-email",
+                  "label": "Concierge Email",
+                  "value": "info@xyz.com",
+                  "icon": "email",
+                  "href": "mailto:info@xyz.com"
+                },
+                {
+                  "id": "contact-hours",
+                  "label": "Reception Hours",
+                  "value": "Open 24 Hours Daily",
+                  "icon": "hours"
+                }
+              ],
+              "formTitle": "Send a Reservation Inquiry",
+              "namePlaceholder": "Your Full Name",
+              "emailPlaceholder": "Email Address",
+              "phonePlaceholder": "Phone Number",
+              "messagePlaceholder": "Preferred dates, suite type, or special requests...",
+              "submitLabel": "Send Inquiry",
+              "successMessage": "Thank you. Our concierge team has received your inquiry and will reply shortly."
+            }
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "components": [
+        {
+          "key": "Hero",
+          "component": "HotelsResortsHero2"
+        },
+        {
+          "key": "AboutUs",
+          "component": "HotelsResortsAboutUs2"
+        },
+        {
+          "key": "Rooms",
+          "component": "HotelsResortsRooms2"
+        },
+        {
+          "key": "WhyChooseUs",
+          "component": "HotelsResortsWhyChooseUs2"
+        },
+        {
+          "key": "Testimonials",
+          "component": "HotelsResortsTestimonials2"
+        },
+        {
+          "key": "Faq",
+          "component": "HotelsResortsFaq2"
+        },
+        {
+          "key": "Contact",
+          "component": "HotelsResortsContact2"
+        }
+      ]
+    }
+  }
+}
