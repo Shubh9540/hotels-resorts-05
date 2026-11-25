@@ -94,6 +94,11 @@
                   "id": "nav-reviews",
                   "label": "Reviews",
                   "url": "/#testimonials"
+                },
+                {
+                  "id": "nav-faq",
+                  "label": "FAQs",
+                  "url": "/#faq"
                 }
               ],
               "contactButton": {
