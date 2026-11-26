@@ -33,6 +33,11 @@
           "url": "/#why-choose-us"
         },
         {
+          "id": "footer-gallery",
+          "label": "Gallery",
+          "url": "/#gallery"
+        },
+        {
           "id": "footer-testimonials",
           "label": "Guest Reviews",
           "url": "/#testimonials"
@@ -89,6 +94,11 @@
                   "id": "nav-experiences",
                   "label": "Experiences",
                   "url": "/#why-choose-us"
+                },
+                {
+                  "id": "nav-gallery",
+                  "label": "Gallery",
+                  "url": "/#gallery"
                 },
                 {
                   "id": "nav-reviews",
@@ -196,8 +206,6 @@
                 {
                   "id": "room-pine-suite",
                   "title": "Pine Canopy Suite",
-                  "price": "$340",
-                  "priceUnit": "/ night",
                   "size": "520 sq ft",
                   "guests": "2 Guests",
                   "bed": "King Bed",
@@ -207,8 +215,6 @@
                 {
                   "id": "room-lagoon-villa",
                   "title": "Lagoon Terrace Villa",
-                  "price": "$520",
-                  "priceUnit": "/ night",
                   "size": "780 sq ft",
                   "guests": "3 Guests",
                   "bed": "King + Daybed",
@@ -218,8 +224,6 @@
                 {
                   "id": "room-canopy-pavilion",
                   "title": "Emerald Courtyard Pavilion",
-                  "price": "$440",
-                  "priceUnit": "/ night",
                   "size": "650 sq ft",
                   "guests": "2 Guests",
                   "bed": "California King",
@@ -229,8 +233,6 @@
                 {
                   "id": "room-coastal-residence",
                   "title": "Pin Signature Residence",
-                  "price": "$790",
-                  "priceUnit": "/ night",
                   "size": "1,150 sq ft",
                   "guests": "4 Guests",
                   "bed": "2 King Suites",
@@ -293,6 +295,69 @@
                   "title": "Seamless Connectivity",
                   "description": "High-speed fiber Wi-Fi across all suites, gardens, and private work lounges.",
                   "icon": "wifi"
+                }
+              ]
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "HotelsResortsGallery2": {
+              "eyebrow": "Visual Journal",
+              "titleStart": "Moments Around",
+              "titleAccent": "Pin Resorts",
+              "description": "Explore sunlit suites, tranquil pools, coastal dining terraces, and quiet pine-lined corners across our sanctuary.",
+              "prevAriaLabel": "Previous gallery image",
+              "nextAriaLabel": "Next gallery image",
+              "closeAriaLabel": "Close gallery lightbox",
+              "images": [
+                {
+                  "id": "gallery-1",
+                  "src": "/gallery/pin-gallery-1.jpg",
+                  "alt": "Sunlit king bedroom suite with natural wood finishes",
+                  "caption": "Morning Light in the Canopy Suite"
+                },
+                {
+                  "id": "gallery-2",
+                  "src": "/gallery/pin-gallery-2.jpg",
+                  "alt": "Resort courtyard pool surrounded by palm trees",
+                  "caption": "Main Courtyard Lagoon Pool"
+                },
+                {
+                  "id": "gallery-3",
+                  "src": "/gallery/pin-gallery-3.jpg",
+                  "alt": "Luxury resort lounge terrace overlooking water",
+                  "caption": "Coastal Horizon Lounge"
+                },
+                {
+                  "id": "gallery-4",
+                  "src": "/gallery/pin-gallery-4.jpg",
+                  "alt": "Evening poolside cabanas with warm ambient lighting",
+                  "caption": "Dusk Reflections by the Pool"
+                },
+                {
+                  "id": "gallery-5",
+                  "src": "/gallery/pin-gallery-5.jpg",
+                  "alt": "Open-air coastal dining pavilion at sunset",
+                  "caption": "Open-Air Coastal Dining"
+                },
+                {
+                  "id": "gallery-6",
+                  "src": "/gallery/pin-gallery-6.jpg",
+                  "alt": "Architectural resort villa exterior with landscaped garden",
+                  "caption": "Private Villa Architecture"
+                },
+                {
+                  "id": "gallery-7",
+                  "src": "/gallery/pin-gallery-7.jpg",
+                  "alt": "Minimalist suite living room with warm timber accents",
+                  "caption": "Signature Residence Living Room"
+                },
+                {
+                  "id": "gallery-8",
+                  "src": "/gallery/pin-gallery-8.jpg",
+                  "alt": "Serene boutique hotel suite interior with linen bedding",
+                  "caption": "Calm Linen & Cedar Interiors"
                 }
               ]
             }
@@ -451,6 +516,10 @@
         {
           "key": "WhyChooseUs",
           "component": "HotelsResortsWhyChooseUs2"
+        },
+        {
+          "key": "Gallery",
+          "component": "HotelsResortsGallery2"
         },
         {
           "key": "Testimonials",

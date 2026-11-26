@@ -70,8 +70,6 @@ export interface AboutUsProps {
 export interface RoomItem {
   id: string;
   title: string;
-  price: string;
-  priceUnit: string;
   size: string;
   guests: string;
   bed: string;
@@ -114,6 +112,28 @@ export interface WhyChooseUsData {
 
 export interface WhyChooseUsProps {
   data?: WhyChooseUsData;
+}
+
+export interface GalleryImageItem {
+  id: string;
+  src: string;
+  alt: string;
+  caption: string;
+}
+
+export interface GalleryData {
+  eyebrow: string;
+  titleStart: string;
+  titleAccent: string;
+  description: string;
+  prevAriaLabel: string;
+  nextAriaLabel: string;
+  closeAriaLabel: string;
+  images: GalleryImageItem[];
+}
+
+export interface GalleryProps {
+  data?: GalleryData;
 }
 
 export interface TestimonialItem {
@@ -243,6 +263,11 @@ export interface HotelsResortsSections {
   WhyChooseUs: {
     variants: {
       HotelsResortsWhyChooseUs2: WhyChooseUsData;
+    };
+  };
+  Gallery: {
+    variants: {
+      HotelsResortsGallery2: GalleryData;
     };
   };
   Testimonials: {

@@ -133,18 +133,9 @@ export const Rooms = ({ data }: RoomsProps) => {
 
                   <div className="flex flex-1 flex-col justify-between p-6">
                     <div>
-                      <div className="flex items-baseline justify-between gap-3">
-                        <h3 className="font-serif-title text-2xl font-medium text-[var(--color-heading)]">
-                          {room.title}
-                        </h3>
-                        <p className="shrink-0 text-base font-semibold text-[var(--color-primary)]">
-                          {room.price}
-                          <span className="text-xs font-normal text-[var(--color-text-muted)]">
-                            {' '}
-                            {room.priceUnit}
-                          </span>
-                        </p>
-                      </div>
+                      <h3 className="font-serif-title text-2xl font-medium text-[var(--color-heading)]">
+                        {room.title}
+                      </h3>
                     </div>
 
                     <div className="mt-5 grid grid-cols-3 gap-2 border-t border-[var(--color-border)] pt-4 text-xs text-[var(--color-text-muted)]">
